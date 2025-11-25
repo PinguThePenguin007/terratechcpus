@@ -1,5 +1,7 @@
 #!/usr/bin/lua
 
+-- TODO: implement proper cli argument parser
+
 local inputfile = arg[1]
 local outbase = (arg[2] or "HEX"):upper()
 local dostdout = arg[3]
@@ -79,7 +81,6 @@ end
 os.exit()
 --]]
 
-
 -- find labels and count positions for them
 
 io.input(inputfile)
@@ -135,6 +136,8 @@ for label,bcount in pairs(labels) do
 	print(label.." = "..bcount)
 end
 --]]
+
+-- TODO: rewrite processing to properly support code positioning and do less things twice
 
 -- assemble
 

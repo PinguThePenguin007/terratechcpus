@@ -1,0 +1,6 @@
+ mov #2 ACC
+ mov #101 X
+ str
+ mov #0 ACC
+ lod
+ mov ACC X

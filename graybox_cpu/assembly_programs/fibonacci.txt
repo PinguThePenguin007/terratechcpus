@@ -1,0 +1,14 @@
+ mov #1 A
+ mov #1 B
+ mov #100 X
+
+loop:
+ add
+ str
+ mov B ACC
+ mov ACC A
+ swp
+ mov ACC B
+
+ inc X
+ jmp #loop

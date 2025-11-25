@@ -1,0 +1,8 @@
+ mov #1 A
+ mov #2 B
+
+ mov A ACC
+ mov B ACC
+ mov ACC A
+ swp
+ mov ACC B

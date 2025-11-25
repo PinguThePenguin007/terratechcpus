@@ -1,0 +1,15 @@
+ mov #002 A
+
+loop:
+ mov #001 B
+ add
+
+ mov ACC A
+ mov #097 B
+ add
+
+ mov ACC X
+ mov A ACC
+ str
+
+ jmp #loop

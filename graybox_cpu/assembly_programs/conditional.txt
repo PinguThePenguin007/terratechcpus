@@ -1,0 +1,24 @@
+
+button = 200
+
+ .org 000
+
+ mov #1 B
+
+checkst:
+ mov #button X
+
+check:
+ lod
+ mov ACC A
+ jne #check
+ str
+
+ mov #100 X
+ lod
+ mov ACC A
+ add
+ str
+ jmp #checkst
+
+

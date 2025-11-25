@@ -1,0 +1,48 @@
+:cardrive = 2
+:carback = 3
+:carleft = 1
+:carright = 4
+:carsensreset = 5
+:carmovreset = 6
+:carplug = red
+
+:reset
+IO $carplug $cardrive write direct
+DATA j = $waitfordetect
+:waitfordetect
+
+IO a < $carplug
+ALU a + v 0 jz
+
+
+DATA j = $turntillnotouch
+:turntillnotouch
+
+IO $carplug $carsensreset write direct
+IO $carplug $carright write direct
+IO a < $carplug
+ALU a + v 0 jnz
+
+IO $carplug $carmovreset write direct
+alu jmp direct $reset
+
+
+
+--IO write $carplug direct $cardrive
+--IO write $carplug direct $carmovreset
+
+--IO write $carplug direct $carback
+--IO write $carplug direct $carmovreset
+
+--IO write $carplug direct $carleft
+--CPU nop
+--IO write $carplug direct $carmovreset
+
+--IO write $carplug direct $carright
+--CPU nop
+--IO write $carplug direct $carmovreset
+
+--IO write $carplug direct $carsensreset
+--IO write $carplug direct $carmovreset
+
+CPU HALT

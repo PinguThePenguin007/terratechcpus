@@ -28,12 +28,12 @@ I will distribute the snapshots using Steam Workshop for now:
 - [TBA] My miscellaneous I/O modules
 ## Circuit
 A circuit file for [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution) is available:
-- [The circuit](https://github.com/PinguThePenguin007/terraltair/blob/main/TerrAltair.circ)
+- [The circuit](https://github.com/PinguThePenguin007/terratechcpus/blob/main/terraltair/TerrAltair.circ)
 ## Documentation
 The assembler documentation will be in GitHub wiki for now:
 * [The GitHub wiki](https://github.com/PinguThePenguin007/terraltair/wiki)
 
-* [The instruction layout](https://github.com/PinguThePenguin007/terraltair/blob/main/TerrAltair%20instruction%20layout.txt)
+* [The instruction layout](https://github.com/PinguThePenguin007/terratechcpus/blob/main/terraltair/TerrAltair%20instruction%20layout.txt)
 
 ## Assembler
 

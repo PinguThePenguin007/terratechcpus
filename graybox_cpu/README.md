@@ -49,7 +49,7 @@ the assembler doesn't require any external libraries and can be run using Lua 5.
 
 the lua executable will be included in [releases](https://github.com/PinguThePenguin007/terratechcpus/releases)
 
-otherwise, [download it here](https://sourceforge.net/projects/luabinaries/files/5.4.2/)
+otherwise, [download it here](https://luabinaries.sourceforge.net/download.html)
 
 put lua and the script in the same directory, then open `cmd`
 

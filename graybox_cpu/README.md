@@ -18,6 +18,7 @@ this repo contains:
 
 #### a [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution) circuit file ([here](https://github.com/PinguThePenguin007/terratechcpus/blob/main/graybox_cpu/graybox_cpu.circ))
 contains a 1-1 implementation of the CPU and various accompanying peripherals
+
 this can be used to speed up program writing and experiment on stuff without digging around in the physical design
 
 #### an assembler written in the Lua programming language ([here](https://github.com/PinguThePenguin007/terratechcpus/blob/main/graybox_cpu/assembler.lua))
@@ -28,6 +29,7 @@ take a look at these to better understand the assembler syntax and the way thing
 
 #### the instruction list ([here](https://github.com/PinguThePenguin007/terratechcpus/blob/main/graybox_cpu/instruction_list.md))
 every valid instruction including expansions
+
 the assembler actually uses this file to get available instructions (convenient :P)
 
 #### the documentation and layout

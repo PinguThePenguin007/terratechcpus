@@ -24,7 +24,7 @@ this can be used to speed up program writing and experiment on stuff without dig
 #### an assembler written in the Lua programming language ([here](https://github.com/PinguThePenguin007/terratechcpus/blob/main/graybox_cpu/assembler.lua))
 i wrote the syntax based on various snippets of 6502 assembly code that i've seen, though i don't have any actual 6502 experience yet :P
 
-#### some assembly programs as starting examples [here](https://github.com/PinguThePenguin007/terratechcpus/tree/main/graybox_cpu/assembly_programs)
+#### some assembly programs as starting examples ([here](https://github.com/PinguThePenguin007/terratechcpus/tree/main/graybox_cpu/assembly_programs))
 take a look at these to better understand the assembler syntax and the way things are generally done :)
 
 #### the instruction list ([here](https://github.com/PinguThePenguin007/terratechcpus/blob/main/graybox_cpu/instruction_list.md))

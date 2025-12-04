@@ -32,8 +32,11 @@ every valid instruction including expansions
 
 the assembler actually uses this file to get available instructions (convenient :P)
 
-#### the documentation and layout
-to be added :P
+#### the documentation ([here](https://github.com/PinguThePenguin007/terratechcpus/tree/main/graybox_cpu/documentation))
+
+a detailed description of how the processor/assembler operate and an overview of all the instructions and what they do
+
+also mirrored to github wiki :)
 
 ## run the assembler
 

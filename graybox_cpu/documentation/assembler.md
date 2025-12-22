@@ -88,13 +88,13 @@ Syntax as an operand is then as follows:
 
 ### Constants
 
-Constants are defined similarly to labels, having the following syntax:
+Constants are defined using the following syntax:
 
 ```
 <constant> = <value>
 ```
 
-They then may be similarly used as opcodes for instructions:
+They may then be similarly used as opcodes for instructions:
 
 ```
 peripheral = 0x36   ; address of some peripheral device

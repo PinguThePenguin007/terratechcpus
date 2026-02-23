@@ -1,0 +1,24 @@
+; this program will continuously find numbers in the Fibonacci sequence
+; and store them into RAM (it'll try, at least)
+
+; nice demonstration of uses for "swp"
+
+; modified to use the "quick math" mode
+
+ qma ; there it is :)
+
+ mov #1 ACC
+ mov #1 B
+ mov #100 X
+
+loop:
+ add
+ str
+
+ mov B ACC
+ swp
+ mov ACC B
+ swp
+
+ inc X
+ jmp #loop

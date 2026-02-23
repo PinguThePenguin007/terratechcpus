@@ -6,7 +6,8 @@
 |:---------:|:---------:|:---------:|:---------:|:---------:|
 |[nop](#nop)|           |           |           |           |
 |[mov](#mov)|[swp](#swp)|[lod](#lod)|[str](#str)|[inc](#inc)|
-|[add](#add)|[sub](#sub)|[mul](#mul)|[div](#div)|           |
+|[qma](#qma)|           |           |           |           |
+|[add](#add)|[sub](#sub)|[mul](#mul)|[div](#div)|[nsu](#nsu)|
 |[jng](#jng)|[jeq](#jeq)|[jne](#jne)|[jgt](#jgt)|[jlt](#jlt)|
 |[jmp](#jmp)|           |           |           |           |
 
@@ -79,6 +80,19 @@ Increment X by 1.
 ```
 
 
+### qma
+
+Toggle a flag that enables the "quick math" mode.
+
+In this mode, all ALU operations are performed using the ACC register, which can speed up calculations in some cases.
+
+In this mode, the A register is still usable as a general purpose register. (load/store)
+
+```
+ qma
+```
+
+
 ### add
 
 Add A and B together and store the result in ACC.
@@ -112,6 +126,17 @@ Divide A by B and store the result in ACC.
 
 ```
  div
+```
+
+
+### nsu
+
+Subtract A from B and store the result in ACC.
+
+Useful for finding out if the result of a subtraction operation is negative.
+
+```
+ nsu
 ```
 
 

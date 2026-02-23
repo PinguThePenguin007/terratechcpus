@@ -1,3 +1,5 @@
+; swapping two values, an insurmountable task...
+
  mov #1 A
  mov #2 B
 

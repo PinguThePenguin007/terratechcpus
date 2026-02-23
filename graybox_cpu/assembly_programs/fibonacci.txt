@@ -1,3 +1,8 @@
+; this program will continuously find numbers in the Fibonacci sequence
+; and store them into RAM (it'll try, at least)
+
+; nice demonstration of uses for "swp"
+
  mov #1 A
  mov #1 B
  mov #100 X
@@ -5,6 +10,7 @@
 loop:
  add
  str
+
  mov B ACC
  mov ACC A
  swp

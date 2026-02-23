@@ -1,3 +1,5 @@
+; increments A and stores it in RAM
+
  mov #002 A
 
 loop:

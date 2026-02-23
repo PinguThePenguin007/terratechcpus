@@ -1,17 +1,23 @@
+; example of branching execution
+
+; requires some extra hardware
 
 button = 200
-
- .org 000
 
  mov #1 B
 
 checkst:
  mov #button X
 
+; will keep looping until a button is pressed
+; no interrupts for now, sorry!
 check:
  lod
  mov ACC A
  jne #check
+
+
+
  str
 
  mov #100 X

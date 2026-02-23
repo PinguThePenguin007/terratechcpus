@@ -1658,7 +1658,7 @@
     <comp lib="3" loc="(510,570)" name="Comparator">
       <a name="width" val="10"/>
     </comp>
-    <comp lib="4" loc="(290,540)" name="T Flip-Flop">
+    <comp lib="4" loc="(300,540)" name="T Flip-Flop">
       <a name="appearance" val="classic"/>
     </comp>
     <comp lib="4" loc="(390,260)" name="Register">
@@ -1687,7 +1687,7 @@
     <comp loc="(700,750)" name="module_resolver"/>
     <comp loc="(700,790)" name="module_resolver"/>
     <comp loc="(700,830)" name="module_resolver"/>
-    <wire from="(120,690)" to="(350,690)"/>
+    <wire from="(120,690)" to="(250,690)"/>
     <wire from="(130,260)" to="(340,260)"/>
     <wire from="(130,640)" to="(230,640)"/>
     <wire from="(130,780)" to="(200,780)"/>
@@ -1702,19 +1702,20 @@
     <wire from="(230,480)" to="(230,640)"/>
     <wire from="(230,480)" to="(250,480)"/>
     <wire from="(230,640)" to="(430,640)"/>
-    <wire from="(240,520)" to="(240,540)"/>
+    <wire from="(240,520)" to="(240,560)"/>
     <wire from="(240,520)" to="(340,520)"/>
-    <wire from="(240,540)" to="(240,560)"/>
-    <wire from="(240,540)" to="(250,540)"/>
-    <wire from="(240,560)" to="(250,560)"/>
+    <wire from="(240,560)" to="(260,560)"/>
+    <wire from="(250,540)" to="(250,690)"/>
+    <wire from="(250,540)" to="(260,540)"/>
+    <wire from="(250,690)" to="(350,690)"/>
     <wire from="(260,380)" to="(260,420)"/>
     <wire from="(260,420)" to="(260,460)"/>
     <wire from="(290,420)" to="(290,460)"/>
     <wire from="(290,460)" to="(290,500)"/>
-    <wire from="(290,540)" to="(430,540)"/>
     <wire from="(300,400)" to="(320,400)"/>
     <wire from="(300,440)" to="(360,440)"/>
     <wire from="(300,480)" to="(340,480)"/>
+    <wire from="(300,540)" to="(430,540)"/>
     <wire from="(320,270)" to="(320,400)"/>
     <wire from="(320,270)" to="(360,270)"/>
     <wire from="(340,260)" to="(340,430)"/>
